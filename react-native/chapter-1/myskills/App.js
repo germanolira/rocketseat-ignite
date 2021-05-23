@@ -12,6 +12,12 @@ export default function() {
       <Text>
         Testando
       </Text>
+      <Text>
+        React Native
+      </Text>
+      <Text style={{fontSize: 30}}>
+        Oi gabriela
+      </Text>
     </View>
     </>
   )
