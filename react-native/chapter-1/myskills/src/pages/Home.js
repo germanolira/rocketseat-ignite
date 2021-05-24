@@ -8,7 +8,8 @@ import {
   SafeAreaView, 
   TextInput, 
   Platform,
-  TouchableOpacity
+  TouchableOpacity,
+  FlatList
 } from 'react-native';
 
 export function Home() {
@@ -23,6 +24,7 @@ export function Home() {
   return(
     <>
     <SafeAreaView style={styles.container}>
+      
       <Text style={styles.title}>
         Bem vindo, Elon Musk
       </Text>
@@ -40,12 +42,13 @@ export function Home() {
           Minhas habilidades
       </Text>
 
-      {
-        mySkills.map(skill => (
-          <SkillCard />
-        ))
-        
-      }
+      <FlatList
+        data={mySkills}
+        keyExtractor={item => item}
+        renderItem={({ item }) => (
+          <SkillCard skill={item} />
+        )}
+      />
 
     </SafeAreaView>
     </>
