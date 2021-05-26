@@ -2322,6 +2322,13 @@ diff-sequences@^26.6.2:
   resolved "https://registry.yarnpkg.com/diff-sequences/-/diff-sequences-26.6.2.tgz#48ba99157de1923412eed41db6b6d4aa9ca7c0b1"
   integrity sha512-Mv/TDa3nZ9sbc5soK+OoA74BsS3mL37yixCvUAQkiuA4Wz6YtwP/K47n2rv2ovzHZvoiQeA5FTQOschKkEwB0Q==
 
+dns-packet@^5.2.3:
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-5.2.3.tgz#ebd234118c40e59ec7097c50a4b2ee36fe9ae0c9"
+  integrity sha512-qrcTxpFwILBjWasLSVQmBXTI8XVLP9Tbmyv9Mvb41Exnl7yLqQ5UkXV7Jf+Ak14PBwoeOfCpMZZCzqUQVX40Zw==
+  dependencies:
+    ip "^1.1.5"
+
 doctrine@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/doctrine/-/doctrine-2.1.0.tgz#5cd01fc101621b42c4cd7f5d1a66243716d3f39d"
