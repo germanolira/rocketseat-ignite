@@ -45,9 +45,8 @@ export function Home() {
       />
 
       <Button 
-        onPress={handleAddNewSkill}
         title="Add"
-        activeOpacity={0.8}
+        onPress={handleAddNewSkill}
       />
 
       <Text style={[styles.title, {marginVertical: 50}]}>
