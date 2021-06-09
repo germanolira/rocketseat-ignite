@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^1.15.0",
+    "axios": "^0.21.1",
     "browserslist": "^4.16.6",
     "dns-packet": "^5.2.3",
     "faunadb": "^4.3.0",
