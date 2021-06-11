@@ -47,12 +47,12 @@ CMS (Content Management System)
 - Wordpress
 x Drupal
 x Joomla
-x Magento
+x Magento (E-commerce)
 
 Headless CMS (Painel de administração + API HTTP, GraphQL, SDK)
 
 - Strapi
-- Ghost
+- Ghost (Blog)
 - Keystone
 
 - GraphCMS
